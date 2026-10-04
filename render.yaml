@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: nightfall-social-deduction
-    runtime: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    healthCheckPath: /
